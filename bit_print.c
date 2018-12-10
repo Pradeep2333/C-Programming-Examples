@@ -9,7 +9,7 @@ Prints out the bits contained in an integer value.
 
 void bit_print(int a)
 {
-	int i;
+	int j;
 	int n = sizeof(int) * CHAR_BIT;  /* find size of ints for this macine */
 	int mask = 1 << (n - 1); /* set mask to 1000000...000 */
 
